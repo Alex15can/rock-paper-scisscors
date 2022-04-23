@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(255, 210, 210);
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+#background {
+    display: flex;
+    background-color: rgb(56, 130, 130);
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+#results {
+    background-color: rgb(170, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    border-color: aquamarine;
+    border: 140px;
+}
+#text-results {
+    font-size: 20px;
+    text-align: center;
+}
+.score {
+    font-size: 40px;
+}
+.button {
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(138, 143, 226);
+    color: aliceblue;
+    border-radius: 30%;
+    margin: 30px;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#player-move, #computer-move {
+    display: flex;
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+}
